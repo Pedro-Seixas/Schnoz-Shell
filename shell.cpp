@@ -177,13 +177,13 @@ int Shell::shell_builtin_command() {
 		exitFlag = true;
 		printf("\nExiting.");
 		fflush(stdout);
-	    usleep(500000);
+		usleep(500000);
 		printf(".");
 		fflush(stdout);
-	    usleep(500000);
+		usleep(500000);
 		printf(".");	
 		fflush(stdout);
-	    usleep(500000);
+		usleep(500000);
 		system("clear");
 
 		printf(CYN "\n\n--------------------------------------\n");
